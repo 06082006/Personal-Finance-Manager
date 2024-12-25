@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Forms and Buttons */
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Transactions Table */
+#transactionList {
+    margin-top: 20px;
+}
+
+#transactionList table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#transactionList th, #transactionList td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+#transactionList th {
+    background-color: #f4f4f9;
+    font-weight: bold;
+}
+
+#transactionList tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #333;
+    color: #f4f4f9;
+}
+
+body.dark-mode .container {
+    background: #444;
+    color: #f4f4f9;
+}
+
+body.dark-mode table {
+    border: 1px solid #555;
+}
+
+body.dark-mode th, body.dark-mode td {
+    border: 1px solid #555;
+}
+
+body.dark-mode th {
+    background-color: #555;
+}
